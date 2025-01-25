@@ -83,15 +83,15 @@ a {
   -ms-transition: all 0.9s ease-in-out;
   transition: all 0.9s ease-in-out; }
 
-.BigIma { width:200px; height:270px; border:1px solid var(--accent1); background-size: cover; background-position: center;}
-.BigText { width:500px; height:270px; overflow: auto; padding:20px; text-align: left; font-family:var(--fuente2); font-style:italic; color:var(--white3); font-size:14px; line-height:20px;}
+.BigIma { width:200px; height:290px; border:1px solid var(--accent1); background-size: cover; background-position: center;}
+.BigText { width:500px; height:290px; overflow: auto; padding:20px; text-align: left; font-family:var(--fuente2); font-style:italic; color:var(--white3); font-size:14px; line-height:20px;}
 .BigText br, .MiniText br { display:block; }
 .BigText h5 { font-weight: lighter; font-family:var(--fuente1); font-size:25px; font-style: normal; color:var(--accent1); line-height:50px; text-align:right;}
 .BigText b { color:var(--accent2); position:relative; display:inline-flex;}
 .BigText ul { margin: 0 15px;}
 
-.MiniIma { width:200px; height:125px; border:1px solid var(--accent1); background-size: cover;}
-.MiniText { width:365px; height:135px; padding:10px 20px; text-align:justify; font-family:var(--fuente2); font-style:italic; color:var(--white3); font-size:13px; line-height:20px;}
+.MiniIma { width:200px; height:155px; border:1px solid var(--accent1); background-size: cover;}
+.MiniText { width:365px; height:165px; padding:10px 20px; text-align:justify; font-family:var(--fuente2); font-style:italic; color:var(--white3); font-size:13px; line-height:20px;}
 .MiniText h5 { font-weight: lighter; font-family:var(--fuente1); font-size:25px; color:var(--accent1); font-style:normal; line-height:50px; text-align:right;}
 .MiniText b { margin:0 20px; color:var(--accent2); font-size:20px; position:relative; display:inline-flex;}
 
@@ -102,14 +102,14 @@ a {
 
 .gotblock { display:flex; flex-flow:row; gap:10px; margin-top:-10px;}
 
-.Inventario { width:300px; height:210px; padding-left:15px; padding-top:15px; border-right:1px solid var(--accent1);}
-.Inventario invendatos { display:flex; flex-flow:row wrap; width:275px; margin-top:10px; height:185px; overflow:auto; padding-right:10px; font-family:var(--fuente2); font-size:14px; text-align:justify; color:var(--white2); gap:10px; justify-content:flex-start; align-items:flex-start; align-content:flex-start;}
+.Inventario { width:300px; height:230px; padding-left:15px; padding-top:15px; border-right:1px solid var(--accent1);}
+.Inventario invendatos { display:flex; flex-flow:row wrap; width:275px; margin-top:10px; height:205px; overflow:auto; padding-right:10px; font-family:var(--fuente2); font-size:14px; text-align:justify; color:var(--white2); gap:10px; justify-content:flex-start; align-items:flex-start; align-content:flex-start;}
 .Inventario dato { min-width:115px; }
 .Inventario dato b { color:var(--white3);}
 
 .Habilidades { padding:15px 0 0 20px;}
 .Habilidades h5, .Inventario h5 { color:var(--accent1); font-weight: lighter; font-family:var(--fuente1); font-size:25px; }
-.Habilidades textito { display:block; width:345px; margin-top:10px; height:145px; overflow:auto; padding-right:10px; font-family:var(--fuente2); font-size:14px; text-align:justify; color:var(--white3);}
+.Habilidades textito { display:block; width:345px; margin-top:10px; height:165px; overflow:auto; padding-right:10px; font-family:var(--fuente2); font-size:14px; text-align:justify; color:var(--white3);}
 .Habilidades textito br { display:block;}
 .Habilidades textito li strong { color: var(--accent2); font-style: normal;}
 .Habilidades textito li { margin-bottom: 10px;}

@@ -32,7 +32,9 @@
 
 body {
   justify-items: center;
-  align-items: center;
+  align-items: center; 
+  height: 990px;
+  overflow: hidden;
 }
 
 a {
@@ -43,10 +45,10 @@ a {
 ::-webkit-scrollbar-track { background-color: var(--background);}
 ::-webkit-scrollbar-thumb { background: var(--main);border-radius: 10px; border-left: 2px solid var(--black); border-right:2px solid var(--background);}
 
-.LannisTab { box-sizing: border-box; width:750px; display:flex; flex-flow:column; background: #3B1B1A; padding: 15px}
+.LannisTab { box-sizing: border-box; width:750px; height: 990px; display:flex; flex-flow:column; background: #3B1B1A; padding: 15px; padding-bottom: 0px; }
 .LannisTab br { display:none;}
 .marco {
-  background: url(https://i.imgur.com/MqNj6oG.png); background-size: 100%; margin-top: -5px;
+  background: url(https://i.imgur.com/MqNj6oG.png); height: 970px; background-size: 100%; margin-top: -5px;
 }
 
 .TabHeader { width:100%; height:500px; display:flex; flex-flow:column; gap:10px; padding:50px 0 0; align-items:center; justify-content:center; margin-top: 50px}
@@ -55,7 +57,7 @@ a {
 .nombre {font-size: 120px; line-height: 100%; color: #451c1c; margin-top: -20px; letter-spacing: 2px; font-family: 'Magic'; text-transform: uppercase; position: absolute; float: left; z-index: 1; margin-left: -195px; text-align: center; width: 600px; text-shadow: 0 1px #9f4744, 1px 0 #9f4744, -1px 0 #9f4744, 0 -1px #9f4744;}
 
 .datosgenerales { display:flex; flex-flow: row wrap; gap:15px 0; width:80%; height:100px; margin-top:20px; }
-.datosgenerales dato { font-family:Var(--fuente2); font-size:13px; color:var(--white3); width:192px; text-align:right; border-bottom:1px solid #552422; padding:0 10px 5px 0;}
+.datosgenerales dato { font-family:Var(--fuente2); font-size:14px; color:var(--white3); width:192px; text-align:right; border-bottom:1px solid #552422; padding:0 10px 5px 0;}
 .datosgenerales dato b { color:var(--accent1); float:left;}
 
 .TabBody { margin-left: 35px; width:650px; height:440px; display:flex; flex-flow:column; justify-items: center; align-items:center; padding-top:20px;}
@@ -81,15 +83,15 @@ a {
   -ms-transition: all 0.9s ease-in-out;
   transition: all 0.9s ease-in-out; }
 
-.BigIma { width:200px; height:300px; border:1px solid var(--accent1); background-size: cover; background-position: center;}
-.BigText { width:500px; height:300px; overflow: auto; padding:20px; text-align: left; font-family:var(--fuente2); font-style:italic; color:var(--white3); font-size:13px; line-height:20px;}
+.BigIma { width:200px; height:260px; border:1px solid var(--accent1); background-size: cover; background-position: center;}
+.BigText { width:500px; height:260px; overflow: auto; padding:20px; text-align: left; font-family:var(--fuente2); font-style:italic; color:var(--white3); font-size:14px; line-height:20px;}
 .BigText br, .MiniText br { display:block; }
 .BigText h5 { font-weight: lighter; font-family:var(--fuente1); font-size:25px; font-style: normal; color:var(--accent1); line-height:50px; text-align:right;}
 .BigText b { color:var(--accent2); position:relative; display:inline-flex;}
 .BigText ul { margin: 0 15px;}
 
-.MiniIma { width:200px; height:145px; border:1px solid var(--accent1); background-size: cover;}
-.MiniText { width:365px; height:145px; padding:10px 20px; text-align:justify; font-family:var(--fuente2); font-style:italic; color:var(--white3); font-size:13px; line-height:20px;}
+.MiniIma { width:200px; height:115px; border:1px solid var(--accent1); background-size: cover;}
+.MiniText { width:365px; height:125px; padding:10px 20px; text-align:justify; font-family:var(--fuente2); font-style:italic; color:var(--white3); font-size:13px; line-height:20px;}
 .MiniText h5 { font-weight: lighter; font-family:var(--fuente1); font-size:25px; color:var(--accent1); font-style:normal; line-height:50px; text-align:right;}
 .MiniText b { margin:0 20px; color:var(--accent2); font-size:20px; position:relative; display:inline-flex;}
 
@@ -100,14 +102,14 @@ a {
 
 .gotblock { display:flex; flex-flow:row; gap:10px; margin-top:-10px;}
 
-.Inventario { width:300px; height:250px; padding-left:15px; padding-top:15px; border-right:1px solid var(--accent1);}
-.Inventario invendatos { display:flex; flex-flow:row wrap; width:275px; margin-top:10px; height:185px; overflow:auto; padding-right:10px; font-family:var(--fuente2); font-size:13px; text-align:justify; color:var(--white2); gap:10px; justify-content:flex-start; align-items:flex-start; align-content:flex-start;}
+.Inventario { width:300px; height:200px; padding-left:15px; padding-top:15px; border-right:1px solid var(--accent1);}
+.Inventario invendatos { display:flex; flex-flow:row wrap; width:275px; margin-top:10px; height:185px; overflow:auto; padding-right:10px; font-family:var(--fuente2); font-size:14px; text-align:justify; color:var(--white2); gap:10px; justify-content:flex-start; align-items:flex-start; align-content:flex-start;}
 .Inventario dato { min-width:115px; }
 .Inventario dato b { color:var(--white3);}
 
 .Habilidades { padding:15px 0 0 20px;}
 .Habilidades h5, .Inventario h5 { color:var(--accent1); font-weight: lighter; font-family:var(--fuente1); font-size:25px; }
-.Habilidades textito { display:block; width:345px; margin-top:10px; height:185px; overflow:auto; padding-right:10px; font-family:var(--fuente2); font-size:13px; text-align:justify; color:var(--white3);}
+.Habilidades textito { display:block; width:345px; margin-top:10px; height:135px; overflow:auto; padding-right:10px; font-family:var(--fuente2); font-size:14px; text-align:justify; color:var(--white3);}
 .Habilidades textito br { display:block;}
 .Habilidades textito li strong { color: var(--accent2); font-style: normal;}
 .Habilidades textito li { margin-bottom: 10px;}

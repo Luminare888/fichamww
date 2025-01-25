@@ -90,8 +90,8 @@ a {
 .BigText b { color:var(--accent2); position:relative; display:inline-flex;}
 .BigText ul { margin: 0 15px;}
 
-.MiniIma { width:200px; height:155px; border:1px solid var(--accent1); background-size: cover;}
-.MiniText { width:365px; height:165px; padding:10px 20px; text-align:justify; font-family:var(--fuente2); font-style:italic; color:var(--white3); font-size:13px; line-height:20px;}
+.MiniIma { width:200px; height:125px; border:1px solid var(--accent1); background-size: cover;}
+.MiniText { width:365px; height:135px; padding:10px 20px; text-align:justify; font-family:var(--fuente2); font-style:italic; color:var(--white3); font-size:13px; line-height:20px;}
 .MiniText h5 { font-weight: lighter; font-family:var(--fuente1); font-size:25px; color:var(--accent1); font-style:normal; line-height:50px; text-align:right;}
 .MiniText b { margin:0 20px; color:var(--accent2); font-size:20px; position:relative; display:inline-flex;}
 

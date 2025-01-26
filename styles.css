@@ -45,7 +45,7 @@ a {
 ::-webkit-scrollbar-track { background-color: var(--background);}
 ::-webkit-scrollbar-thumb { background: var(--main);border-radius: 10px; border-left: 2px solid var(--black); border-right:2px solid var(--background);}
 
-.LannisTab { box-sizing: border-box; width:750px; height: 980px; display:flex; flex-flow:column; background: #3B1B1A; padding: 15px; padding-bottom: 0px; }
+.LannisTab { box-sizing: border-box; width:750px; height: 990px; display:flex; flex-flow:column; background: #3B1B1A; padding: 15px; padding-bottom: 0px; }
 .LannisTab br { display:none;}
 .marco {
   background: url(https://i.imgur.com/MqNj6oG.png); height: 970px; background-size: 100%; margin-top: -5px;
@@ -83,8 +83,8 @@ a {
   transform: rotate(360deg);
 }
 
-.BigIma { width:200px; height:290px; border:1px solid var(--accent1); background-size: cover; background-position: center;}
-.BigText { width:500px; height:290px; overflow: auto; padding:20px; text-align: left; font-family:var(--fuente2); font-style:italic; color:var(--white3); font-size:14px; line-height:20px;}
+.BigIma { width:200px; height:270px; border:1px solid var(--accent1); background-size: cover; background-position: center;}
+.BigText { width:500px; height:270px; overflow: auto; padding:20px; text-align: left; font-family:var(--fuente2); color:var(--white3); font-size:14px; line-height:20px;}
 .BigText br, .MiniText br { display:block; }
 .BigText h5 { font-weight: lighter; font-family:var(--fuente1); font-size:25px; font-style: normal; color:var(--accent1); line-height:50px; text-align:right;}
 .BigText b { color:var(--accent2); position:relative; display:inline-flex;}
@@ -102,18 +102,21 @@ a {
 
 .gotblock { display:flex; flex-flow:row; gap:10px; margin-top:-10px;}
 
-.Inventario { width:300px; height:230px; padding-left:15px; padding-top:15px; border-right:1px solid var(--accent1);}
-.Inventario invendatos { display:flex; flex-flow:row wrap; width:275px; margin-top:10px; height:205px; overflow:auto; padding-right:10px; font-family:var(--fuente2); font-size:14px; text-align:justify; color:var(--white2); gap:10px; justify-content:flex-start; align-items:flex-start; align-content:flex-start;}
-.Inventario dato { min-width:115px; }
-.Inventario dato b { color:var(--white3);}
+.Inventario { width:300px; height:210px; padding-left:15px; padding-top:15px; border-right:1px solid var(--accent1); }
+.Inventario invendatos { width:275px; margin-top:10px; height:185px; overflow: auto; padding-right:10px; font-family:var(--fuente2); font-size:14px; text-align:left; color:var(--white3); }
+.Inventario dato { min-width:275px; }
+.Inventario dato { color:var(--white3); }
+.Inventario invendatos br { display:block; }
+.Inventario invendatos li strong { color: var(--accent2); font-style: normal; }
+.Inventario invendatos li { margin-bottom: 10px; }
 
 .Habilidades { padding:15px 0 0 20px;}
 .Habilidades h5, .Inventario h5 { color:var(--accent1); font-weight: lighter; font-family:var(--fuente1); font-size:25px; }
-.Habilidades textito { display:block; width:345px; margin-top:10px; height:165px; overflow:auto; padding-right:10px; font-family:var(--fuente2); font-size:14px; text-align:justify; color:var(--white3);}
-.Habilidades textito br { display:block;}
-.Habilidades textito li strong { color: var(--accent2); font-style: normal;}
-.Habilidades textito li { margin-bottom: 10px;}
-.Habilidades textito ul { margin: 0 15px;}
+.Habilidades textito { display:block; width:300px; margin-top:10px; height:145px; overflow:auto; padding-right:10px; font-family:var(--fuente2); font-size:14px; text-align:justify; color:var(--white3);}
+.Habilidades textito br { display:block; }
+.Habilidades textito li strong { color: var(--accent2); font-style: normal; }
+.Habilidades textito li { margin-bottom: 10px; }
+.Habilidades textito ul { margin: 0 15px; }
 
 .TabFooter { width:100%; height:260px; padding:30px; padding-top: 10px; padding-bottom: 10px; overflow:auto; font-size:12px; line-height:16px; text-align:justify; color:var(--white3); font-family:var(--fuente2); font-style:italic; border-top:1px solid var(--accent1);}
 .TabFooter h5 { font-family:var(--fuente1); font-size:25px; line-height:50px; color:var(--accent2); font-style:normal; font-weight:200;}
